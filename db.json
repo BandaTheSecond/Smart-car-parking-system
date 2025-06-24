@@ -1,0 +1,206 @@
+{
+  "carParks": [
+    {
+      "id": 1,
+      "name": "Downtown Parking",
+      "spots": [
+        {
+          "id": 1,
+          "occupied": false,
+          "car": null,
+          "price": 100
+        },
+        {
+          "id": 2,
+          "occupied": false,
+          "car": null,
+          "price": 100
+        },
+        {
+          "id": 3,
+          "occupied": false,
+          "car": null,
+          "price": 100
+        },
+        {
+          "id": 4,
+          "occupied": false,
+          "car": null,
+          "price": 100
+        },
+        {
+          "id": 5,
+          "occupied": false,
+          "car": null,
+          "price": 100
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mall Parking",
+      "spots": [
+        {
+          "id": 1,
+          "occupied": false,
+          "car": null,
+          "price": 150
+        },
+        {
+          "id": 2,
+          "occupied": false,
+          "car": null,
+          "price": 150
+        },
+        {
+          "id": 3,
+          "occupied": false,
+          "car": null,
+          "price": 150
+        },
+        {
+          "id": 4,
+          "occupied": false,
+          "car": null,
+          "price": 150
+        },
+        {
+          "id": 5,
+          "occupied": false,
+          "car": null,
+          "price": 150
+        },
+        {
+          "id": 6,
+          "occupied": false,
+          "car": null,
+          "price": 150
+        },
+        {
+          "id": 7,
+          "occupied": false,
+          "car": null,
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Airport Parking",
+      "spots": [
+        {
+          "id": 1,
+          "occupied": false,
+          "car": null,
+          "price": 200
+        },
+        {
+          "id": 2,
+          "occupied": false,
+          "car": null,
+          "price": 200
+        },
+        {
+          "id": 3,
+          "occupied": false,
+          "car": null,
+          "price": 200
+        },
+        {
+          "id": 4,
+          "occupied": false,
+          "car": null,
+          "price": 200
+        },
+        {
+          "id": 5,
+          "occupied": false,
+          "car": null,
+          "price": 200
+        },
+        {
+          "id": 6,
+          "occupied": false,
+          "car": null,
+          "price": 200
+        },
+        {
+          "id": 7,
+          "occupied": false,
+          "car": null,
+          "price": 200
+        },
+        {
+          "id": 8,
+          "occupied": false,
+          "car": null,
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Campus Parking",
+      "spots": [
+        {
+          "id": 1,
+          "occupied": true,
+          "car": "KZU 12T",
+          "price": 60
+        },
+        {
+          "id": 2,
+          "occupied": true,
+          "car": "kga",
+          "price": 60
+        },
+        {
+          "id": 3,
+          "occupied": false,
+          "car": null,
+          "price": 60
+        },
+        {
+          "id": 4,
+          "occupied": false,
+          "car": null,
+          "price": 60
+        },
+        {
+          "id": 5,
+          "occupied": false,
+          "car": null,
+          "price": 60
+        },
+        {
+          "id": 6,
+          "occupied": false,
+          "car": null,
+          "price": 60
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "carParkId": 4,
+      "carParkName": "Campus Parking",
+      "spotId": 1,
+      "car": "KZU 12T",
+      "price": 60,
+      "time": "6/25/2025, 1:17:46 AM",
+      "action": "Parked",
+      "id": 1
+    },
+    {
+      "carParkId": 4,
+      "carParkName": "Campus Parking",
+      "spotId": 2,
+      "car": "kga",
+      "price": 70,
+      "time": "6/25/2025, 1:21:58 AM",
+      "action": "Parked",
+      "id": 2
+    }
+  ]
+}

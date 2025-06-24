@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Car Parking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Car Parking Management</h1>
+    <div class="parking-photos">
+        <img src="images/parking1.jpg" alt="Parking Yard 1" />
+        <img src="images/parking2.jpg" alt="Parking Yard 2" />
+    </div>
+    <div id="car-parks-container"></div>
+    <form id="park-form">
+        <input type="text" id="car-number" placeholder="Car Number Plate" required />
+        <select id="car-park-select"></select>
+        <button type="submit">Park Car</button>
+    </form>
+    <h2>Parking History</h2>
+    <ul id="history-list"></ul>
+    <script src="app.js"></script>
+</body>
+</html>
