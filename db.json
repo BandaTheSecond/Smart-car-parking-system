@@ -150,8 +150,8 @@
         },
         {
           "id": 2,
-          "occupied": true,
-          "car": "kga",
+          "occupied": false,
+          "car": null,
           "price": 60
         },
         {
@@ -201,6 +201,16 @@
       "time": "6/25/2025, 1:21:58 AM",
       "action": "Parked",
       "id": 2
+    },
+    {
+      "carParkId": 4,
+      "carParkName": "Campus Parking",
+      "spotId": 2,
+      "car": "kga",
+      "price": 60,
+      "time": "6/26/2025, 10:14:05 PM",
+      "action": "Left",
+      "id": 3
     }
   ]
 }
