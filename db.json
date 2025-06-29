@@ -42,14 +42,14 @@
       "spots": [
         {
           "id": 1,
-          "occupied": false,
-          "car": null,
+          "occupied": true,
+          "car": "KDJ 123G",
           "price": 150
         },
         {
           "id": 2,
-          "occupied": false,
-          "car": null,
+          "occupied": true,
+          "car": "KDJ 123G",
           "price": 150
         },
         {
@@ -60,20 +60,20 @@
         },
         {
           "id": 4,
-          "occupied": false,
-          "car": null,
+          "occupied": true,
+          "car": "KCG123G",
           "price": 150
         },
         {
           "id": 5,
-          "occupied": false,
-          "car": null,
+          "occupied": true,
+          "car": "KTT 231T",
           "price": 150
         },
         {
           "id": 6,
-          "occupied": false,
-          "car": null,
+          "occupied": true,
+          "car": "KCS 456T",
           "price": 150
         },
         {
@@ -90,8 +90,8 @@
       "spots": [
         {
           "id": 1,
-          "occupied": false,
-          "car": null,
+          "occupied": true,
+          "car": "KCR 1234T",
           "price": 200
         },
         {
@@ -150,8 +150,8 @@
         },
         {
           "id": 2,
-          "occupied": false,
-          "car": null,
+          "occupied": true,
+          "car": "KTT 231T",
           "price": 60
         },
         {
@@ -211,6 +211,95 @@
       "time": "6/26/2025, 10:14:05 PM",
       "action": "Left",
       "id": 3
+    },
+    {
+      "carParkId": 2,
+      "carParkName": "Mall Parking",
+      "spotId": 3,
+      "car": "KDJ 123G",
+      "price": 150,
+      "time": "6/27/2025, 10:31:01 PM",
+      "action": "Parked",
+      "id": 4
+    },
+    {
+      "carParkId": 2,
+      "carParkName": "Mall Parking",
+      "spotId": 4,
+      "car": "KCG123G",
+      "price": 150,
+      "time": "6/27/2025, 10:31:34 PM",
+      "action": "Parked",
+      "id": 5
+    },
+    {
+      "carParkId": 2,
+      "carParkName": "Mall Parking",
+      "spotId": 5,
+      "car": "KTT 231T",
+      "price": 150,
+      "time": "6/27/2025, 10:31:56 PM",
+      "action": "Parked",
+      "id": 6
+    },
+    {
+      "carParkId": 2,
+      "carParkName": "Mall Parking",
+      "spotId": 6,
+      "car": "KCS 456T",
+      "price": 150,
+      "time": "6/27/2025, 10:32:17 PM",
+      "action": "Parked",
+      "id": 7
+    },
+    {
+      "carParkId": 2,
+      "carParkName": "Mall Parking",
+      "spotId": 7,
+      "car": "KTD 546T",
+      "price": 150,
+      "time": "6/27/2025, 10:32:41 PM",
+      "action": "Parked",
+      "id": 8
+    },
+    {
+      "carParkId": 2,
+      "carParkName": "Mall Parking",
+      "spotId": 7,
+      "car": "KTD 546T",
+      "action": "Left",
+      "time": "6/28/2025, 10:57:11 PM",
+      "id": 9
+    },
+    {
+      "carParkId": 2,
+      "carParkName": "Mall Parking",
+      "spotId": 3,
+      "car": "KDJ 123G",
+      "price": 150,
+      "time": "6/28/2025, 11:06:12 PM",
+      "action": "Left",
+      "id": 10
+    },
+    {
+      "carParkId": 4,
+      "carParkName": "Campus Parking",
+      "spotId": 2,
+      "car": "KTT 231T",
+      "price": 60,
+      "time": "6/28/2025, 11:08:45 PM",
+      "action": "Parked",
+      "id": 11
+    },
+    {
+      "carParkId": 3,
+      "carParkName": "Airport Parking",
+      "spotId": 1,
+      "car": "KCR 1234T",
+      "price": 200,
+      "time": "6/29/2025, 1:10:39 PM",
+      "action": "Parked",
+      "id": 12
     }
   ]
 }

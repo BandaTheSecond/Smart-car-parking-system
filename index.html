@@ -2,22 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Simple Car Parking System</title>
+    <title>Car Parking System</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('https://media.istockphoto.com/id/2047691553/photo/3d-illustration-rendering-empty-parking-lots-aerial-view.jpg?s=1024x1024&w=is&k=20&c=X67YaIaiMiDcknH8JJ2Td6VyHGGWcyFhC5L2kP8cM-E=');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        } 
+    </style>
 </head>
 <body>
-    <h1>Car Parking Management</h1>
-    <div class="parking-photos">
-        <img src="images/parking1.jpg" alt="Parking Yard 1" />
-        <img src="images/parking2.jpg" alt="Parking Yard 2" />
-    </div>
+    <h1>Car Parking lot Booking</h1>
+    
     <div id="car-parks-container"></div>
     <form id="park-form">
         <input type="text" id="car-number" placeholder="Car Number Plate" required />
         <select id="car-park-select"></select>
-        <button type="submit">Park Car</button>
+        <button type="submit">BOOK LOT</button>
     </form>
-    <h2>Parking History</h2>
+    <h2><b>Parking History</b></h2>
     <ul id="history-list"></ul>
     <script src="app.js"></script>
 </body>

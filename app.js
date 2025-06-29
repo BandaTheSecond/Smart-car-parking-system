@@ -139,7 +139,7 @@ document.getElementById('park-form').onsubmit = async (e) => {
     // Find first available spot
     const freeSpot = carPark.spots.find(s => !s.occupied);
     if (!freeSpot) {
-        alert('No free spots in ' + carPark.name + '!');
+        alert('Parking spots fully booked in ' + carPark.name + '!');
         return;
     }
      // Update spot to mark as occupied
