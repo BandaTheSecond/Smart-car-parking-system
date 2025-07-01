@@ -6,8 +6,8 @@
       "spots": [
         {
           "id": 1,
-          "occupied": false,
-          "car": null,
+          "occupied": true,
+          "car": "KZA 321W",
           "price": 100
         },
         {
@@ -54,8 +54,8 @@
         },
         {
           "id": 3,
-          "occupied": false,
-          "car": null,
+          "occupied": true,
+          "car": "KZA 321W",
           "price": 150
         },
         {
@@ -300,6 +300,66 @@
       "time": "6/29/2025, 1:10:39 PM",
       "action": "Parked",
       "id": 12
+    },
+    {
+      "carParkId": 1,
+      "carParkName": "Downtown Parking",
+      "spotId": 1,
+      "car": "KDG 123D",
+      "price": 100,
+      "time": "7/1/2025, 4:57:28 PM",
+      "action": "Parked",
+      "id": 13
+    },
+    {
+      "carParkId": 2,
+      "carParkName": "Mall Parking",
+      "spotId": 3,
+      "car": "KZA 321W",
+      "price": 150,
+      "time": "7/1/2025, 4:58:27 PM",
+      "action": "Parked",
+      "id": 14
+    },
+    {
+      "carParkId": 2,
+      "carParkName": "Mall Parking",
+      "spotId": 7,
+      "car": "KZU 12T",
+      "price": 150,
+      "time": "7/1/2025, 4:58:38 PM",
+      "action": "Parked",
+      "id": 15
+    },
+    {
+      "carParkId": 1,
+      "carParkName": "Downtown Parking",
+      "spotId": 1,
+      "car": "KDG 123D",
+      "price": 100,
+      "time": "7/1/2025, 4:59:44 PM",
+      "action": "Left",
+      "id": 16
+    },
+    {
+      "carParkId": 1,
+      "carParkName": "Downtown Parking",
+      "spotId": 1,
+      "car": "KZA 321W",
+      "price": 100,
+      "time": "7/1/2025, 5:05:41 PM",
+      "action": "Parked",
+      "id": 17
+    },
+    {
+      "carParkId": 2,
+      "carParkName": "Mall Parking",
+      "spotId": 7,
+      "car": "KZU 12T",
+      "price": 150,
+      "time": "7/1/2025, 5:06:10 PM",
+      "action": "Left",
+      "id": 18
     }
   ]
 }
